@@ -1,0 +1,139 @@
+.topnav {
+    background-color: #333;
+    position: relative;
+    width: 70%;
+    left: 300px;
+    display: flex;
+    justify-content: center;
+  }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style: none;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .slideshow {
+    position: relative;
+    height: 400px;
+}
+.slideshow img {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.slideshow img:first-child {
+    opacity: 1;
+}
+body{
+        
+    background-size:cover;
+    background-image: url("images/index_background.jpg");
+  }
+
+
+  .featured-box {
+    background-color: white;
+  border: 2px solid black;
+  padding: 10px;
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  }
+  
+  .featured-recipe-details h3,
+  .featured-restaurant-details h3,
+  .featured-grocery-details h3 {
+    margin-top: 0;
+  }
+  
+  .featured-recipe-details p,
+  .featured-restaurant-details p,
+  .featured-grocery-details p {
+    margin-bottom: 5px;
+  
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+  }
+
+  .title {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 65%;;
+  }
+
+  
+  .featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .featured > div {
+    margin: 20px;
+  }
+.toptitle{
+  text-align: center;
+}
+.bottomnav {
+  background-color: #333;
+  position: relative;
+  width: 70%;
+  left: 300px;
+  display: flex;
+  justify-content: center;
+}
+/* Style the links inside the navigation bar */
+.bottomnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  list-style: none;
+}
+/* Change the color of links on hover */
+.bottomnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.bottomnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.bottom{
+  text-align: center;
+}
