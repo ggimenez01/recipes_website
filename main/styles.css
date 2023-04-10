@@ -1,0 +1,102 @@
+post-link{
+    display:none;
+}
+
+edit-link{
+    display:none;
+}
+  
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style: none;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+    
+
+  /*Edit_post.php*/
+  
+  .edit_user{
+    font-size: 20px;
+    color: white;
+    display: flex;
+  flex-flow: row wrap;
+  margin: 0 -1rem 1rem -1rem;
+
+   
+   
+		
+	}
+  
+  
+  
+  .edit_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 540px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 50px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .edit_form h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .edit_form .edit_user {
+    position: relative;
+  }
+  .edit_form h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+
+/* pagination */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  .pagination a:hover {
+    background-color: #ccc;
+  }
+  
+     
